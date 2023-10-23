@@ -12,6 +12,7 @@
 	--shadow: 1px 1px 1px #000000;
 	
 }
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -22,6 +23,10 @@
 	font-size: 25px;
 	font-weight: 400;
 	text-decoration: none;
+}
+
+head {
+	display: none;
 }
 
 html {
