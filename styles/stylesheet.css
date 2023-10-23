@@ -1,0 +1,80 @@
+/* position, shape, color, text */
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700");
+
+:root {
+	--eggcolor: linear-gradient(to right, #f1c40f, #e67e22);
+	--purple: #5865f2;
+	--yellow: #f1c40f;
+	--orange: ##e67e22;
+	--white: #ffffff;
+	--black: #000000;
+	--shadow: 1px 1px 1px #000000;
+	
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	border: none;
+	color: var(--black);
+	font-family: "Epilogue", sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+html {
+	background-color: var(--white);
+}
+
+header, footer {
+	padding: 15px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--purple);
+	color: var(--white);
+}
+
+nav {
+}
+
+main {
+	padding: 20px;
+}
+
+div {
+	align-items: center;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.button {
+	margin: 0px 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-image: var(--eggcolor);
+	color: var(--white);
+	font-size: 20px;
+}
+
+.button:hover {
+	background-image: unset;
+	background-color: var(--yellow);
+	box-shadow: var(--shadow);
+}
+
+.logo {
+	margin: 0px 10px 0px 0px;
+	height: 40px;
+	text-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 900px) {
+	nav {
+		display: none;
+	}
+}
