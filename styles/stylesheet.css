@@ -10,13 +10,11 @@
 	--white: #ffffff;
 	--black: #000000;
 	--shadow: 1px 1px 1px #000000;
-	
 }
 
 * {
 	margin: 0px;
 	padding: 0px;
-	display: flex;
 	border: none;
 	color: var(--black);
 	font-family: "Epilogue", sans-serif;
@@ -25,23 +23,21 @@
 	text-decoration: none;
 }
 
-head {
-	display: none;
-}
-
 html {
 	background-color: var(--white);
 }
 
 header, footer {
 	padding: 15px;
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: var(--purple);
 	color: var(--white);
+	background-color: var(--purple);
 }
 
 nav {
+	display: flex;
 }
 
 main {
